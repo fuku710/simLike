@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C044E251FB9855600EC0C9C /* build.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C044E231FB9855600EC0C9C /* build.c */; };
 		5C1204C61FA594E100C150F4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C1204C51FA594E100C150F4 /* main.c */; };
+		5C1204DC1FA5950300C150F4 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C1204CD1FA5950300C150F4 /* debug.c */; };
+		5C1204DD1FA5950300C150F4 /* drawModel.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C1204CF1FA5950300C150F4 /* drawModel.c */; };
+		5C1204DE1FA5950300C150F4 /* glm.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C1204D11FA5950300C150F4 /* glm.c */; };
+		5C1204DF1FA5950300C150F4 /* groundManage.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C1204D41FA5950300C150F4 /* groundManage.c */; };
+		5C1204E01FA5950300C150F4 /* shape.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C1204D61FA5950300C150F4 /* shape.c */; };
+		5C1204E21FA5950300C150F4 /* utility.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C1204DA1FA5950300C150F4 /* utility.c */; };
+		5C1204E61FA5953300C150F4 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C1204E41FA5953300C150F4 /* GLUT.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		5C1204E71FA5953300C150F4 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C1204E51FA5953300C150F4 /* OpenGL.framework */; };
+		5C1D429D1FA7F89600515F67 /* material.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D429B1FA7F89600515F67 /* material.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +33,34 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5C044E231FB9855600EC0C9C /* build.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = build.c; sourceTree = "<group>"; };
+		5C044E241FB9855600EC0C9C /* build.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = build.h; sourceTree = "<group>"; };
 		5C1204C21FA594E100C150F4 /* simLike */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = simLike; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C1204C51FA594E100C150F4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		5C1204CC1FA5950300C150F4 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		5C1204CD1FA5950300C150F4 /* debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = debug.c; sourceTree = "<group>"; };
+		5C1204CE1FA5950300C150F4 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		5C1204CF1FA5950300C150F4 /* drawModel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = drawModel.c; sourceTree = "<group>"; };
+		5C1204D01FA5950300C150F4 /* drawModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drawModel.h; sourceTree = "<group>"; };
+		5C1204D11FA5950300C150F4 /* glm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glm.c; sourceTree = "<group>"; };
+		5C1204D21FA5950300C150F4 /* glm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glm.h; sourceTree = "<group>"; };
+		5C1204D41FA5950300C150F4 /* groundManage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = groundManage.c; sourceTree = "<group>"; };
+		5C1204D51FA5950300C150F4 /* groundManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = groundManage.h; sourceTree = "<group>"; };
+		5C1204D61FA5950300C150F4 /* shape.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shape.c; sourceTree = "<group>"; };
+		5C1204D71FA5950300C150F4 /* shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shape.h; sourceTree = "<group>"; };
+		5C1204DA1FA5950300C150F4 /* utility.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utility.c; sourceTree = "<group>"; };
+		5C1204DB1FA5950300C150F4 /* utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utility.h; sourceTree = "<group>"; };
+		5C1204E41FA5953300C150F4 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		5C1204E51FA5953300C150F4 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		5C1D429B1FA7F89600515F67 /* material.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = material.c; sourceTree = "<group>"; };
+		5C1D429C1FA7F89600515F67 /* material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = material.h; sourceTree = "<group>"; };
+		5C2083651FB4AE9B00FA0326 /* LibertStatue.mtl */ = {isa = PBXFileReference; lastKnownFileType = text; name = LibertStatue.mtl; path = model/LibertStatue.mtl; sourceTree = "<group>"; };
+		5C2083661FB4AE9B00FA0326 /* LibertStatue.obj */ = {isa = PBXFileReference; lastKnownFileType = text; name = LibertStatue.obj; path = model/LibertStatue.obj; sourceTree = "<group>"; };
+		5C2083671FB4AE9B00FA0326 /* Liberty-DecorazioniMarmo-2.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = "Liberty-DecorazioniMarmo-2.bmp"; path = "model/Liberty-DecorazioniMarmo-2.bmp"; sourceTree = "<group>"; };
+		5C2083681FB4AE9B00FA0326 /* Liberty-GreenBronze-1.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = "Liberty-GreenBronze-1.bmp"; path = "model/Liberty-GreenBronze-1.bmp"; sourceTree = "<group>"; };
+		5C2083691FB4AE9B00FA0326 /* Liberty-MattoniBasamento-1.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = "Liberty-MattoniBasamento-1.bmp"; path = "model/Liberty-MattoniBasamento-1.bmp"; sourceTree = "<group>"; };
+		5C20836A1FB4AE9B00FA0326 /* Liberty-Pavimentazione-1.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = "Liberty-Pavimentazione-1.bmp"; path = "model/Liberty-Pavimentazione-1.bmp"; sourceTree = "<group>"; };
+		5C20836B1FB4AE9B00FA0326 /* Liberty-PortaBronzo-1.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = "Liberty-PortaBronzo-1.bmp"; path = "model/Liberty-PortaBronzo-1.bmp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C1204E61FA5953300C150F4 /* GLUT.framework in Frameworks */,
+				5C1204E71FA5953300C150F4 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +81,7 @@
 			children = (
 				5C1204C41FA594E100C150F4 /* simLike */,
 				5C1204C31FA594E100C150F4 /* Products */,
+				5C1204E31FA5953300C150F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +96,50 @@
 		5C1204C41FA594E100C150F4 /* simLike */ = {
 			isa = PBXGroup;
 			children = (
+				5CF92CC01FAA22AF000D23F6 /* objects */,
 				5C1204C51FA594E100C150F4 /* main.c */,
+				5C1204CC1FA5950300C150F4 /* common.h */,
+				5C1204CD1FA5950300C150F4 /* debug.c */,
+				5C1204CE1FA5950300C150F4 /* debug.h */,
+				5C1204CF1FA5950300C150F4 /* drawModel.c */,
+				5C1204D01FA5950300C150F4 /* drawModel.h */,
+				5C1204D11FA5950300C150F4 /* glm.c */,
+				5C1204D21FA5950300C150F4 /* glm.h */,
+				5C044E231FB9855600EC0C9C /* build.c */,
+				5C044E241FB9855600EC0C9C /* build.h */,
+				5C1204D41FA5950300C150F4 /* groundManage.c */,
+				5C1204D51FA5950300C150F4 /* groundManage.h */,
+				5C1204D61FA5950300C150F4 /* shape.c */,
+				5C1204D71FA5950300C150F4 /* shape.h */,
+				5C1204DA1FA5950300C150F4 /* utility.c */,
+				5C1204DB1FA5950300C150F4 /* utility.h */,
+				5C1D429B1FA7F89600515F67 /* material.c */,
+				5C1D429C1FA7F89600515F67 /* material.h */,
 			);
 			path = simLike;
+			sourceTree = "<group>";
+		};
+		5C1204E31FA5953300C150F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C1204E41FA5953300C150F4 /* GLUT.framework */,
+				5C1204E51FA5953300C150F4 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CF92CC01FAA22AF000D23F6 /* objects */ = {
+			isa = PBXGroup;
+			children = (
+				5C2083651FB4AE9B00FA0326 /* LibertStatue.mtl */,
+				5C2083661FB4AE9B00FA0326 /* LibertStatue.obj */,
+				5C2083671FB4AE9B00FA0326 /* Liberty-DecorazioniMarmo-2.bmp */,
+				5C2083681FB4AE9B00FA0326 /* Liberty-GreenBronze-1.bmp */,
+				5C2083691FB4AE9B00FA0326 /* Liberty-MattoniBasamento-1.bmp */,
+				5C20836A1FB4AE9B00FA0326 /* Liberty-Pavimentazione-1.bmp */,
+				5C20836B1FB4AE9B00FA0326 /* Liberty-PortaBronzo-1.bmp */,
+			);
+			name = objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +200,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C1204C61FA594E100C150F4 /* main.c in Sources */,
+				5C1204DC1FA5950300C150F4 /* debug.c in Sources */,
+				5C1D429D1FA7F89600515F67 /* material.c in Sources */,
+				5C1204DF1FA5950300C150F4 /* groundManage.c in Sources */,
+				5C1204E01FA5950300C150F4 /* shape.c in Sources */,
+				5C1204DE1FA5950300C150F4 /* glm.c in Sources */,
+				5C044E251FB9855600EC0C9C /* build.c in Sources */,
+				5C1204E21FA5950300C150F4 /* utility.c in Sources */,
+				5C1204DD1FA5950300C150F4 /* drawModel.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +306,7 @@
 		5C1204CA1FA594E100C150F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -225,6 +314,7 @@
 		5C1204CB1FA594E100C150F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -248,6 +338,7 @@
 				5C1204CB1FA594E100C150F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
